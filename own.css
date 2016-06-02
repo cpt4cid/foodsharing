@@ -1,0 +1,66 @@
+html{
+	width:100%;
+	height:100%;
+}
+
+
+body{
+	background-image: url("bg.jpg");
+    background-color: #cccccc;
+	width:100%;
+	height:100%;
+}
+.construct{
+	margin-top:50vh;
+	margin-left:40vw;
+	width:20vw;
+	color:white;
+		position: absolute;
+}
+
+ 
+.fs-button{
+	margin-top: 50vh;
+	margin-left:40vw;
+	width: 20vw;
+	min-width: 150px;
+	z-index: 10;
+	position: absolute;
+	white-space: normal;
+}
+
+.main{
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	width:device-width;
+	height: device-height;
+	z-index: 0;
+	top:0px;
+	left:0px;
+	opacity: 0.6;
+}	
+
+.modal-bottom {
+   position: absolute;
+   top: 80vh;
+   right: 
+   bottom: 0;
+   
+   z-index: 9;
+ }
+
+ .osm{
+ 	width:100%;
+ 	height: 50%;
+ 	background-image: url("map.png")
+ }
+
+ #datetimepicker1{
+ 	z-index: 1000;
+ }
+
+
+ .cube{
+ 	float: left;
+ 	width: 25vw;
+ }
